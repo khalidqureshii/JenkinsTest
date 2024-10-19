@@ -1,7 +1,7 @@
 package PascalTriangle;
 
 import java.util.Scanner;
-class Expt2Solution {
+class Demo {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
