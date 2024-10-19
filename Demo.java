@@ -1,5 +1,3 @@
-package PascalTriangle;
-
 import java.util.Scanner;
 class Demo {
 
