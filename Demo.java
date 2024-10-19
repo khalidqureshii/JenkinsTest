@@ -4,48 +4,49 @@ import java.util.Scanner;
 class Demo {
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        System.out.println("Enter Number: ");
-        int num = s.nextInt();
+        // Scanner s = new Scanner(System.in);
+        // System.out.println("Enter Number: ");
+        // int num = s.nextInt();
 
-        boolean quit = false;
-        while (!quit) {
-            System.out.println("Enter a choice: \n1. Factorial\n2. Test If Armstrong\n"
-                    + "3. Test if Palindrome\n4. Test if Prime\n5. Test if in fibonacci series\n6. Print "+ num+
-                    " Numbers in Fibonnaci Series\n7. Quit");
+        // boolean quit = false;
+        // while (!quit) {
+        //     System.out.println("Enter a choice: \n1. Factorial\n2. Test If Armstrong\n"
+        //             + "3. Test if Palindrome\n4. Test if Prime\n5. Test if in fibonacci series\n6. Print "+ num+
+        //             " Numbers in Fibonnaci Series\n7. Quit");
 
-            int choice = s.nextInt();
+        //     int choice = s.nextInt();
 
-            switch (choice) {
-                case 1:
-                    factorial(num);
-                    break;
+        //     switch (choice) {
+        //         case 1:
+        //             factorial(num);
+        //             break;
 
-                case 2:
-                    testArmstrong(num);
-                    break;
+        //         case 2:
+        //             testArmstrong(num);
+        //             break;
 
-                case 3:
-                    testPalindrome(num);
-                    break;
+        //         case 3:
+        //             testPalindrome(num);
+        //             break;
 
-                case 4:
-                    testPrime(num);
-                    break;
+        //         case 4:
+        //             testPrime(num);
+        //             break;
 
-                case 5:
-                    testFibonacci(num);
-                    break;
+        //         case 5:
+        //             testFibonacci(num);
+        //             break;
 
-                case 6:
-                    printFibonacciSeries(num);
-                    break;
+        //         case 6:
+        //             printFibonacciSeries(num);
+        //             break;
 
-                default:
-                    quit = true;
-                    break;
-            }
-        }
+        //         default:
+        //             quit = true;
+        //             break;
+        //     }
+        // }
+        System.out.println("Hello Khalid");
     }
 
     public static void factorial(int n) {
